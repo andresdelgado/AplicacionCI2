@@ -33,7 +33,9 @@ namespace AplicacionCI2
                 
                 if (dr.Read())
                 {
-                    Lbu3.Text = "Bienvenido " + usuario;
+                    //Para crear la sesion
+                    Session["Usuario"] = usuario;
+                    //Para redirigir la pagina si el usuario y contraseña son correctos
                     Response.Redirect("Tarea.aspx");
                 }
                 else

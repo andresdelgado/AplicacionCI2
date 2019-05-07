@@ -13,6 +13,24 @@ namespace AplicacionCI2 {
     public partial class Tarea {
         
         /// <summary>
+        /// Control Lbta11.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Lbta11;
+        
+        /// <summary>
+        /// Control BtaSalir.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtaSalir;
+        
+        /// <summary>
         /// Control Bta2.
         /// </summary>
         /// <remarks>

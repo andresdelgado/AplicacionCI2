@@ -49,15 +49,6 @@ namespace AplicacionCI2 {
         protected global::System.Web.UI.WebControls.TextBox Tbu2;
         
         /// <summary>
-        /// Control Btu1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btu1;
-        
-        /// <summary>
         /// Control Lbu3.
         /// </summary>
         /// <remarks>
@@ -65,5 +56,14 @@ namespace AplicacionCI2 {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Lbu3;
+        
+        /// <summary>
+        /// Control Btu1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btu1;
     }
 }

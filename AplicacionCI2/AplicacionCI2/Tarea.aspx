@@ -1,6 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Tarea.aspx.cs" Inherits="AplicacionCI2.Tarea" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div style="text-align: right">
+        <h4>
+            <asp:Label ID="Lbta11" runat="server" />
+        </h4>
+        <asp:Button ID="BtaSalir" Text="Salir" OnClick="BtaSalir_Click" runat="server" />
+    </div>
     <h2 >Gestionar Tarea</h2>
     <br />
     <h4>Consultar tareas</h4>

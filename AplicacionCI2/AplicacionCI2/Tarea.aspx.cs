@@ -13,7 +13,13 @@ namespace AplicacionCI2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Para mantener la sesion del usuario activa
+            if (Session["Usuario"] != null)
+            {
+                //Response.Write("Bienvenido " + Session["Usuario"]);
+                Lbta11.Text = "Bienvenid@ " + Session["Usuario"];
+            }
+            //
         }
 
         protected void Bta1_Click(object sender, EventArgs e)
@@ -125,6 +131,12 @@ namespace AplicacionCI2
             at.WSConsultarTarea(ds);
             GvTarea.DataSource = ds.Tables[0];
             GvTarea.DataBind();
+        }
+
+        protected void BtaSalir_Click(object sender, EventArgs e)
+        {
+            Session.Remove("Usuario");
+            Response.Redirect("Login.aspx");
         }
     }
 }
